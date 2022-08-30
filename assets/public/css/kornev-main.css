@@ -1,0 +1,114 @@
+body{
+	color: white;
+}
+img { 
+	opacity: 1; 
+	transition: opacity 0.3s; 
+} 
+img[data-src] { opacity: 0; } 
+.section-header__evening-word{
+	color:#FF4842;
+}
+.red-alert{
+	border:3px solid red;
+}
+.red-text{
+	color:#FF4842;
+}
+.title{
+	font-size:32px;
+}
+.section-geography .title, .section-partners .title, .section-form .title{
+	font-family: 'EuropeCondensedC',sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.54;
+    letter-spacing: 1.9px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.logo-container .logo{
+	right:-150px;
+}
+
+
+
+.button-menu{
+	overflow:visible;
+}
+
+.section-company{
+	
+}
+.section-company .title{font-size: 14px} 
+
+.section-video .slider-videos .video-slide .video-content{
+	width:100%;
+	height: 300px;
+	
+}
+.section-video .slider-videos .video-slide .title-video{
+	padding:0;
+	margin-left: 0px;
+	font-size: 16px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.video-info{
+	display:none;
+	justify-content:space-between;
+	max-width: 327px;
+	margin-left: 20px;
+}
+.video-info__text{
+	font-size: 12px;
+	color:  #E0E0E0;
+}
+.video-info__numbers{
+	font-size: 16px;
+}
+.section-video .container {
+    margin-top: -200px;
+}
+.slick-current .video-info{
+	display: flex;
+}
+
+
+
+
+
+.slick-slide{
+	width: 500px;
+}
+.button-menu.move-top {
+    -webkit-transform: translateY(-220px) rotate(-90deg);
+       -moz-transform: translateY(-220px) rotate(-90deg);
+        -ms-transform: translateY(-220px) rotate(-90deg);
+         -o-transform: translateY(-220px) rotate(-90deg);
+            transform: translateY(-220px) rotate(-90deg); }
+.logo-scale{
+	transform:scale(2) !important;
+	right:-230px !important;
+}
+.hand-rotate{
+transform: rotate(20deg) !important;
+}
+.phone-top-hiding{
+	display: none !important;
+}
+.socials-hiding{
+	display: none !important;
+}
+.button-menu-scale{
+	transform:scale(2) !important;
+	top: 60px !important;
+}
+.coockie-scale{
+	bottom: 114px !important;
+    left: 155px !important;
+    transform: scale(2) !important;
+}
+.scroll-down-scale{
+	transform: scale(3) !important;
+	left: 43% !important;
+}
